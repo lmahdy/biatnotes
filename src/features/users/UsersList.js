@@ -4,7 +4,7 @@ import useTitle from "../../hooks/useTitle"
 import PulseLoader from 'react-spinners/PulseLoader'
 
 const UsersList = () => {
-    useTitle('BiatNotes: Users List')
+    useTitle('BiatTasks: Users List')
 
     const {
         data: users,

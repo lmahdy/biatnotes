@@ -17,7 +17,7 @@ import { ROLES } from './config/roles'
 import useTitle from './hooks/useTitle';
 
 function App() {
-  useTitle('BiatNotes')
+  useTitle('BiatTasks')
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
