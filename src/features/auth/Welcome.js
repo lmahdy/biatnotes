@@ -15,9 +15,9 @@ const Welcome = () => {
 
             <h1>Welcome {username}!</h1>
 
-            <p><Link to="/dash/notes">View BiatNotes</Link></p>
+            <p><Link to="/dash/notes">View BiatTasks</Link></p>
 
-            <p><Link to="/dash/notes/new">Add New BiatNote</Link></p>
+            <p><Link to="/dash/notes/new">Add New BiatTasks</Link></p>
 
             {(isManager || isAdmin) && <p><Link to="/dash/users">View User Settings</Link></p>}
 
